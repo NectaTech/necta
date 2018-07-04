@@ -5074,7 +5074,7 @@ p {
 .description,
 .card-description,
 .footer-big p {
-    color: #ffffff;
+    color: #646979;
     font-weight: 300;
 }
 
@@ -5150,9 +5150,9 @@ p {
 }
 
 body {
-    color: #FFFFFF;
+    color: #646979;
     font-size: 14px;
-    background-color: #0c2b44;
+    background-color: #ffffff;
     font-family: 'Rubik', sans-serif;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
@@ -5161,7 +5161,7 @@ body {
 
 .main {
     position: relative;
-    background: #0c2b44;
+    background: #ffffff;
 }
 
 
@@ -5433,7 +5433,7 @@ body {
 }
 
 .navbar a:not(.btn):not(.dropdown-item) {
-    color: #FFFFFF;
+    color: #646979;
 }
 
 .navbar p {
@@ -7004,11 +7004,11 @@ Created using IcoMoon - icomoon.io
 .info .info-title {
     margin: 25px 0 15px;
     padding: 0 15px;
-    color: #FFFFFF;
+    color: #646979;
 }
 
 .info p {
-    color: #FFFFFF;
+    color: #646979;
     padding: 0 15px;
     font-size: 1.1em;
 }
@@ -8397,11 +8397,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .card-background .stats {
-    color: #FFFFFF;
+    color: #646979;
 }
 
 .card-background .card-footer .stats-link>a {
-    color: #FFFFFF;
+    color: #646979;
     line-height: 1.9;
 }
 
@@ -8412,7 +8412,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card-background .card-title {
-    color: #FFFFFF;
+    color: #646979;
     margin-top: 130px;
 }
 
@@ -8740,8 +8740,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer {
-    padding-top: 400px;
-    margin-top: -400px;
+    padding-top: 1500px;
+    margin-top: -1500px;
     text-align: center;
     background-size: cover;
     background-position: bottom;
@@ -8752,7 +8752,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer.footer-white {
-    background-color: #FFFFFF;
+    background-color: #646979;
 }
 
 .footer nav {
@@ -9198,7 +9198,7 @@ Created using IcoMoon - icomoon.io
 .section-full-page .footer nav>ul a:not(.btn),
 .section-full-page .footer,
 .section-full-page .footer .copyright a {
-    color: #FFFFFF;
+    color: #646979;
 }
 
 .signup-page .section {
@@ -9523,7 +9523,7 @@ Created using IcoMoon - icomoon.io
 
 .section-image .title,
 .section-image .card-plain .card-title {
-    color: #FFFFFF;
+    color: #646979;
 }
 
 .section-image .nav-pills .nav-link {
@@ -9543,7 +9543,7 @@ Created using IcoMoon - icomoon.io
 
 .section-image .description,
 .section-image .info .icon:not(.icon-circle) {
-    color: #ffffff;
+    color: #646979;
 }
 
 .section-image .card:not(.card-plain) .info-title {
@@ -9557,7 +9557,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .section-image .footer {
-    color: #FFFFFF;
+    color: #646979;
 }
 
 .section-image .card-plain [class*="text-"],
@@ -9670,7 +9670,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .category,
 .page-header .description {
-    color: #ffffff;
+    color: #646979;
 }
 
 .page-header.page-header-small {
@@ -9943,7 +9943,7 @@ Created using IcoMoon - icomoon.io
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-description,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category {
-    color: #ffffff;
+    color: #646979;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title,
