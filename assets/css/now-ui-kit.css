@@ -5603,6 +5603,10 @@ body {
     border: 1px solid #888888;
 }
 
+.smallimage{
+    max-height: 550px;
+    margin-top: -20px;
+}
 .bg-default {
     background-color: #888888 !important;
 }
