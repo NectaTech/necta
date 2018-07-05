@@ -2700,14 +2700,14 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle,
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle:focus,
 .show>.navbar .navbar-nav>a.btn.dropdown-toggle:hover {
-    background-color: #979797;
-    color: #FFFFFF;
+    background-color: #ff8e8cd7;
+    color: #ff8e8cb2;
     box-shadow: none;
 }
 
 .btn:not([data-action]):hover,
 .navbar .navbar-nav>a.btn:not([data-action]):hover {
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+    box-shadow: 0 3px 8px 0 #ff8e8cb2;
 }
 
 .btn.disabled,
@@ -2758,7 +2758,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn:focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn.focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn:active,
 fieldset[disabled] .navbar .navbar-nav>a.btn.active {
-    background-color: #888888;
+    background-color: #ff8e8cb2;
     border-color: #888888;
 }
 
@@ -2775,7 +2775,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-simple:focus,
 .navbar .navbar-nav>a.btn.btn-simple:active {
     background-color: transparent;
-    color: #979797;
+    color: #ff8e8cb2;
     border-color: #979797;
     box-shadow: none;
 }
@@ -2792,7 +2792,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .navbar .navbar-nav>a.btn.btn-link:focus,
 .navbar .navbar-nav>a.btn.btn-link:active {
     background-color: transparent;
-    color: #979797;
+    color: #ff8e8cb2;
     text-decoration: none;
     box-shadow: none;
 }
@@ -3469,8 +3469,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-    background-color: #f9a599;
-    color:#0c2b44;
+    background-color: #ff8e8c;
+    color:#ffffff;
 }
 
 .btn-primary:hover,
@@ -3484,7 +3484,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-    background-color: #ff8e8c;
+    background-color: #f9a599;
     color: #FFFFFF;
     box-shadow: none;
 }
@@ -4101,6 +4101,10 @@ fieldset[disabled] .btn-link.active {
     font-size: 1em;
     border-radius: 0.25rem;
     padding: 15px 48px;
+}
+
+.nopadding{
+    padding: 0;
 }
 
 .btn-lg.btn-simple {
@@ -5074,7 +5078,7 @@ p {
 .description,
 .card-description,
 .footer-big p {
-    color: #646979;
+    color: #333333;
     font-weight: 300;
 }
 
@@ -5148,11 +5152,16 @@ p {
 .blockquote.blockquote-white small {
     color: rgba(255, 255, 255, 0.8);
 }
-
+.downloadicon{
+    max-height: 20px;
+    margin-left: -20px; 
+    margin-right:5px; 
+    margin-top:-3px;
+}
 body {
-    color: #646979;
+    color: #333333;
     font-size: 14px;
-    background-image: url(../img/pinkswirl_2.svg);
+    background-image: url(../img/svg/gradient.svg);
     background-size:cover;
     background-position: center;
     background-color: #ffffff;
@@ -5270,14 +5279,14 @@ body {
 }
 
 .nav-pills .nav-item .nav-link:hover {
-    background-color: rgba(222, 222, 222, 0.3);
+    background-color: #ff8e8cb2;
 }
 
 .nav-pills .nav-item .nav-link.active,
 .nav-pills .nav-item .nav-link.active:focus,
 .nav-pills .nav-item .nav-link.active:hover {
-    background-color: #9A9A9A;
-    color: #FFFFFF;
+    background-color: #ff8e8c;
+    color: #ff8e8c;
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -5378,7 +5387,7 @@ body {
 }
 
 .nav-tabs>.nav-item>.nav-link.active {
-    background-color: #444;
+    background-color:#ff8e8cb2;
     border-radius: 30px;
     color: #FFFFFF;
 }
@@ -5425,8 +5434,8 @@ body {
 }
 
 .navbar {
-    padding-top: 0.625rem;
-    min-height: 53px;
+    padding-top: 0.4rem;
+    min-height: 40px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
 }
@@ -5436,7 +5445,7 @@ body {
 }
 
 .navbar a:not(.btn):not(.dropdown-item) {
-    color: #646979;
+    color: #333333;
 }
 
 .navbar p {
@@ -5515,7 +5524,7 @@ body {
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):focus,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):active {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #ff8e8cb2;
     border-radius: 0.1875rem;
 }
 
@@ -5567,7 +5576,7 @@ body {
 .navbar.navbar-transparent {
     background-color: transparent !important;
     box-shadow: none;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.562);
 }
 
 .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
@@ -5587,7 +5596,7 @@ body {
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
-    background-color: rgba(222, 222, 222, 0.3);
+    background-color: #ff8e8c2f;
 }
 
 .navbar.bg-white:not(.navbar-transparent) .logo-container {
@@ -5619,7 +5628,7 @@ body {
 }
 
 .bg-white {
-    background-color: #FFFFFF !important;
+    background-color: rgba(255, 255, 255, 0.774) !important;
 }
 
 .dropdown-menu {
@@ -6393,6 +6402,15 @@ Created using IcoMoon - icomoon.io
 /*------------------------
 	font icons
 -------------------------*/
+.download{
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 50px;
+}
+
+.contacthero{
+    max-height: 70px;
+}
 
 .now-ui-icons.ui-1_check:before {
     content: "\ea22";
@@ -7007,11 +7025,11 @@ Created using IcoMoon - icomoon.io
 .info .info-title {
     margin: 25px 0 15px;
     padding: 0 15px;
-    color: #646979;
+    color: #333333;
 }
 
 .info p {
-    color: #646979;
+    color: #333333;
     padding: 0 15px;
     font-size: 1.1em;
 }
@@ -8415,7 +8433,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card-background .card-title {
-    color: #646979;
+    color: #333333;
     margin-top: 130px;
 }
 
@@ -8755,7 +8773,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .footer.footer-white {
-    background-color: #646979;
+    background-color: #333333;
 }
 
 .footer nav {
@@ -9201,7 +9219,7 @@ Created using IcoMoon - icomoon.io
 .section-full-page .footer nav>ul a:not(.btn),
 .section-full-page .footer,
 .section-full-page .footer .copyright a {
-    color: #646979;
+    color: #333333;
 }
 
 .signup-page .section {
@@ -9526,7 +9544,7 @@ Created using IcoMoon - icomoon.io
 
 .section-image .title,
 .section-image .card-plain .card-title {
-    color: #646979;
+    color: #333333;
 }
 
 .section-image .nav-pills .nav-link {
@@ -9541,12 +9559,12 @@ Created using IcoMoon - icomoon.io
 .section-image .info-title,
 .section-image .info.info-horizontal .icon i,
 .section-image .card-pricing.card-plain ul li {
-    color: #646979;
+    color: #333333;
 }
 
 .section-image .description,
 .section-image .info .icon:not(.icon-circle) {
-    color: #646979;
+    color: #333333;
 }
 
 .section-image .card:not(.card-plain) .info-title {
@@ -9560,7 +9578,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .section-image .footer {
-    color: #646979;
+    color: #333333;
 }
 
 .section-image .card-plain [class*="text-"],
@@ -9673,7 +9691,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .category,
 .page-header .description {
-    color: #646979;
+    color: #333333;
 }
 
 .page-header.page-header-small {
@@ -9946,7 +9964,7 @@ Created using IcoMoon - icomoon.io
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-description,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category,
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category {
-    color: #646979;
+    color: #333333;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title,
@@ -10294,7 +10312,7 @@ Created using IcoMoon - icomoon.io
 
 .features-2 .info-title,
 .features-2 .title {
-    color: #646979;
+    color: #333333;
 }
 
 .features-5 .info {
@@ -10958,11 +10976,11 @@ Created using IcoMoon - icomoon.io
         margin-left: 1rem;
     }
     .navbar .navbar-brand {
-        padding-top: .5rem;
-        padding-bottom: .5rem;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
     }
     .navbar .navbar-nav {
-        margin-top: 53px;
+        margin-top: 40px;
     }
     .navbar .navbar-nav.navbar-logo {
         top: 0;
@@ -11021,7 +11039,7 @@ Created using IcoMoon - icomoon.io
         width: 22px;
         height: 1px;
         border-radius: 1px;
-        background: #FFFFFF;
+        background: rgba(65, 65, 65, 0.575);
     }
     .navbar .navbar-toggler-bar+.navbar-toggler-bar {
         margin-top: 7px;
