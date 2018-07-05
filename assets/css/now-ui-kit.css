@@ -5034,7 +5034,7 @@ h4.title+.category,
 
 h5,
 .h5 {
-    font-size: 1.3em;
+    font-size: 1.25em;
     line-height: 1.4em;
     margin-bottom: 15px;
 }
@@ -6272,6 +6272,13 @@ Created using IcoMoon - icomoon.io
     min-width: 20px;
     max-width: 30px;
     float: right;
+}
+
+.hexicon2 {
+    min-width: 20px;
+    max-width: 15px;
+    float: left;
+    margin-right: 5px;
 }
 
 
