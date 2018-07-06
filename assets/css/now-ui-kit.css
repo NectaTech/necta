@@ -404,6 +404,30 @@
 /* Styling;
  */
 
+.gallery{
+    display: inline-block;
+    min-height: 60vh;
+    width:100%;
+}
+
+.galleryitem1{
+    background-image: url(../img/decorex_joburg_august2018.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.galleryitem2{
+    background-image: url(../img/isf_august2018.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.galleryimage{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
 .noUi-target {
     background-color: rgba(182, 182, 182, 0.3);
     border-radius: 3px;
@@ -2850,6 +2874,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-icon.btn-lg,
 .navbar .navbar-nav>a.btn.btn-icon.btn-lg {
+
 }
 
 
@@ -5006,7 +5031,7 @@ h1 small,
 
 h2,
 .h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 30px;
 }
 
@@ -5081,6 +5106,15 @@ p {
     color: #333333;
     font-weight: 300;
 }
+
+.descriptionrt,
+.card-description,
+.footer-big p {
+    color: #333333;
+    font-weight: 300;
+    text-align: right;
+}
+
 
 .category {
     text-transform: capitalize;
@@ -9637,37 +9671,6 @@ Created using IcoMoon - icomoon.io
 }
 
 
-.or-separator  {
-    position: relative;
-    font-size: 0.85em;
-    font-style: italic;
-    text-transform: uppercase;
-    z-index: 1;
-    overflow: hidden;
-    text-align: center;
-    width: 88%;
-
-    margin: 0 auto;
-    span {
-        padding: 10px;
-        color: color($colors, text-light);
-    }
-}
-.or-separator:before, .or-separator:after {
-    position: absolute;
-    top: 43%;
-    overflow: hidden;
-    width: 50%;
-    height: 1px;
-    content: '\a0';
-    background-color: color($colors, text-light);
-}
-.or-separator:before {
-    margin-left: -50%;
-    text-align: right;
-}
-
-
 .signup-page .page-header .content-center {
     top: 57%;
 }
@@ -10311,11 +10314,6 @@ Created using IcoMoon - icomoon.io
     width: 100%;
 }
 
-.features-2,
-.features-1,
-.features-3 {
-    text-align: center;
-}
 
 .features-4 .card {
     margin-top: 70px;
@@ -10878,6 +10876,52 @@ Created using IcoMoon - icomoon.io
 [data-background-color] .social-line .btn.btn-simple {
     border: 0;
 }
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features-2, .features-1, .features-3{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-4{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sections-page{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-5,{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-5,{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .features-2, .features-1, .features-3{
+        text-align: left;
+    }
+}
+
 
 @media screen and (max-width: 991px) {
     .navbar-collapse {
