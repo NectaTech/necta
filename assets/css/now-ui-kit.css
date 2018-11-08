@@ -6292,14 +6292,17 @@ img {
 
 .grid-item2 {
     width: 48vw;
+    height: 50vh;
   }
 
 .grid-item3 {
     width: 32vw;
+    height: 50vh;
   }
 
 .grid-item4 {
     width: 24vw;
+    height: 50vh;
   }
 
 .grid-item-inner {
