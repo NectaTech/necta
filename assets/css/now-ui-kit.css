@@ -406,27 +406,9 @@
 
 .gallery{
     display: inline-block;
-    min-height: 60vh;
-    width:100%;
+    padding-bottom: 6%;
 }
 
-.galleryitem1{
-    background-image: url(../img/decorex_joburg_august2018.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-.galleryitem2{
-    background-image: url(../img/isf_august2018.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-.galleryimage{
-    text-align: center;
-    width: 100%;
-    height: auto;
-}
 
 .noUi-target {
     background-color: rgba(182, 182, 182, 0.3);
@@ -6297,7 +6279,36 @@ img {
     color: inherit;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
+.grid-item {
+    float: left;
+    width: 100vw;
+    height: 50vh;
+  }
+  .grid-item-right {
+    float: right;
+    width: 100vw;
+    height: 50vh;
+  }
 
+.grid-item2 {
+    width: 48vw;
+  }
+
+.grid-item3 {
+    width: 32vw;
+  }
+
+.grid-item4 {
+    width: 24vw;
+  }
+
+.grid-item-inner {
+    margin: auto;
+    margin-top: 1.5%;
+    width: 96%;
+    height: 96%;
+  }
+  
 
 /* --------------------------------
 
@@ -10879,6 +10890,12 @@ Created using IcoMoon - icomoon.io
 @media screen and (max-width: 768px) {
     .logo {
         width: 70vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-item {
+        width: 90vw;
     }
 }
 
