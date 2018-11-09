@@ -6279,30 +6279,16 @@ img {
     color: inherit;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
+
+
 .grid-item {
     float: left;
     width: 100vw;
     height: 50vh;
   }
-  .grid-item-right {
-    float: right;
-    width: 100vw;
-    height: 50vh;
-    
-  }
 
-.grid-item2 {
+.grid-item-50 {
     width: 50%;
-    height: 50vh;
-  }
-
-.grid-item3 {
-    width: 32vw;
-    height: 50vh;
-  }
-
-.grid-item4 {
-    width: 24vw;
     height: 50vh;
   }
 
