@@ -6283,13 +6283,13 @@ img {
 
 .grid-item {
     float: left;
-    width: 100vw;
+    width: auto;
     height: 50vh;
   }
 
 .grid-item-50 {
-    width: 50%;
-    height: 50vh;
+    min-width: 50%;
+    min-height: 50vh;
   }
 
 .grid-item-inner {
